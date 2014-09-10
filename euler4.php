@@ -7,10 +7,9 @@ for ($number=999; $number>100 ; $number--) {
 		if ($number3==$number4) {
 			if ($number4>$number5) {
 				$number5=$number4;
-				echo $number5;
-				echo "<br/>";
 			}
 		}
 	}
 }
+echo $number . " X " . $number2 . " = " . $number5;
 ?>
