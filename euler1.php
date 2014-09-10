@@ -1,8 +1,17 @@
 <?php
-	for ($i=5; $i <1000 ; $i++) {
-		if ($i%5==1) {
-			echo $i;
+	$sum=0;
+	for ($nummer=1; $nummer <1000 ; $nummer++) {
+		if ($nummer%3==0) {
+			$sum=$sum+$nummer;
+			echo "Nummer " . $nummer;
 			echo "<br/>";
+			echo "Sum " . $sum;
+		}
+		elseif ($nummer%5==0) {
+			$sum=$sum+$nummer;
+			echo "Nummer " . $nummer;
+			echo "<br/>";
+			echo "Sum " . $sum;
 		}
 	}
 ?>
